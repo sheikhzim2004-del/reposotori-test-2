@@ -10,16 +10,47 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            margin: 10px 20px;
         }
         .container{
             background-color: azure;
-            margin: 30px;
+            
             border: 20px solid tomato;
-            padding: 10px;
+            border-radius: 20px;
+            padding: 10px 30px;
+            text-align: justify;
         }
         .title{
            text-align: center;
            color: blue;
+        }
+        ul{
+            background-color: aliceblue;
+            padding: 20px;
+            border: 20px double black;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        li{
+            background-color: purple;
+            padding: 10px 40px;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 4px 4px 10px red;
+            
+        }
+        #form{
+            border: 2px groove red;
+            background-color: aliceblue;
+        }
+        .btn{
+            padding: 0px 10px;
+            text-align: center;
+            color: blue;
+            background-color: aqua;
+            border-radius: 5px;
+            cursor: pointer;
         }
 
     </style>
@@ -29,7 +60,7 @@
     <div class="content">
         <div class="container">
         <h1 class="title">This is reposotori test website</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus nobis eligendi asperiores explicabo, suscipit sed aliquid sapiente, facere aperiam autem libero est voluptates odit accusantium quis ea repellat exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus molestias facere quia, vero voluptatibus debitis sit? Voluptatum, aspernatur cumque ipsam fugiat modi deleniti obcaecati voluptas, molestias rem mollitia beatae!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus nobis eligendi asperiores explicabo, suscipit sed aliquid sapiente, facere aperiam autem libero est voluptates odit accusantium quis ea repellat exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus molestias facere quia, vero voluptatibus debitis sit? Voluptatum, aspernatur cumque ipsam fugiat modi deleniti obcaecati voluptas, molestias rem mollitia beatae!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, voluptas dolor. Eius earum dolore pariatur beatae sequi, numquam, minus consectetur cumque illum adipisci sapiente sunt quas omnis possimus, maiores quidem!</p>
     </div>
         <div class="container">
         <h1 class="title">This is reposotori test website</h1>
@@ -39,7 +70,46 @@
         <h1 class="title">This is reposotori test website</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus nobis eligendi asperiores explicabo, suscipit sed aliquid sapiente, facere aperiam autem libero est voluptates odit accusantium quis ea repellat exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus molestias facere quia, vero voluptatibus debitis sit? Voluptatum, aspernatur cumque ipsam fugiat modi deleniti obcaecati voluptas, molestias rem mollitia beatae!</p>
     </div>
-    </div>
+    </div><br><br>
+    <h2>Box Model CSS</h2>
+    <ul>
+        <li>content</li>
+        <li>padding</li>
+        <li>border</li>
+        <li>margin</li>
+    </ul><br><br>
+
+    <h2>This is a form</h2>
+    <form action="" id="form">
+        <label for="">Name:</label>
+        <input type="text" placeholder="Enter your full name"><br><br>
+        <label for="">Password:</label>
+        <input type="password" placeholder="Enter your passwore"><br><br>
+        <label for="">Password:</label>
+        <input type="password" placeholder="Enter re passwore"><br><br>
+        <label for="">Contact No:</label>
+        <input type="number" name="" id="" placeholder="Enter your number"><br><br>
+                <label for="">Email:</label>
+        <input type="email" name="" id="" placeholder="write your email"><br>
+        <h4>Choss your feviorite game</h4>
+        <label for="">
+            <input type="checkbox" name="" id="">Free fire
+        </label>
+        <label for="">
+            <input type="checkbox" name="" id="">football
+        </label>
+        <label for="">
+            <input type="checkbox" name="" id="">cricate
+        </label>
+        <label for="">
+            <input type="checkbox" name="" id="">hadudu
+        </label><br><br>
+
+
+       <button class="btn"><input type="submit" value="">submit</button>
+       <button class="btn"><input type="reset" value="">clear</button>
+        
+    </form>
     
 </body>
 </html>
