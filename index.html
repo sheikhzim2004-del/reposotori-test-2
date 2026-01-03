@@ -45,18 +45,26 @@
             background-color: aliceblue;
         }
         .btn{
-            padding: 0px 10px;
+            padding: 10px 30px;
             text-align: center;
             color: blue;
             background-color: aqua;
             border-radius: 5px;
             cursor: pointer;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        .btn:hover{
+            background-color: brown;
+            transition-duration: 0.5s;
+            color: white;
         }
 
     </style>
 </head>
 <body>
 
+    <h1 style=" font-size: 50px; font-weight: bolder; color: fuchsia; display: flex; justify-content: center; text-decoration: underline;">Practice Day by Habijabi Work</h1><br><br>
     <div class="content">
         <div class="container">
         <h1 class="title">This is reposotori test website</h1>
@@ -78,6 +86,21 @@
         <li>border</li>
         <li>margin</li>
     </ul><br><br>
+
+    <div style="display: grid; align-items: center; justify-content: center;">
+        <h2>Like Under bellow</h2>
+        <div class="all-off-box" style="background-color: aqua; width: 800px; height: 400px; display: grid; align-items: center; justify-content: center; font-size: x-large; font-weight: 700; color: navy; box-shadow: 20px 10px 10px rgb(126, 126, 126);">Margin
+            <div class="margin" style="background-color: blueviolet; width: 600px; height: 300px; display: grid; align-items: center; justify-content: center; border-radius: 30px 0; font-size: x-large; font-weight: 700; color: white; ">Border
+            <div class="border" style="background-color: antiquewhite; width: 400px; height: 150px; border-radius: 0 50px; display: flex; align-items: center; justify-content: center; font-size: x-large; font-weight: 700; color: blue; ">Padding
+                <div class="padding" style="background-color: black; border-radius: 20px; width: 250px; height: 80px; ">
+                    <div class="contant" style="color: white; display: flex; align-items: center; justify-content: center; font-weight: bolder; font-size: x-large;"> Content
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
 
     <h2>This is a form</h2>
     <form action="" id="form">
@@ -106,8 +129,8 @@
         </label><br><br>
 
 
-       <button class="btn"><input type="submit" value="">submit</button>
-       <button class="btn"><input type="reset" value="">clear</button>
+       <button type="submit" class="btn">submit</button>
+       <button type="reset" class="btn">clear</button>
         
     </form>
     
