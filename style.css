@@ -1,0 +1,13 @@
+#ext-head{
+  color: blue;
+  text-decoration: underline;
+}
+
+.ext-p{
+  background-color: palevioletred;
+  color: darkblue;
+  border: 5px dotted wheat;
+  border-radius: 0 30px;
+  padding: 5px 10px;
+  text-align: justify;
+}

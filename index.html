@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="icon.png">
     <title>First gig web</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             margin: 10px 20px;
         }
-        .container{
+
+        .container {
             background-color: azure;
-            
+
             border: 20px solid tomato;
             border-radius: 20px;
             padding: 10px 30px;
             text-align: justify;
         }
-        .title{
-           text-align: center;
-           color: blue;
+
+        .title {
+            text-align: center;
+            color: blue;
         }
-        ul{
+
+        ul {
             background-color: aliceblue;
             padding: 20px;
             border: 20px double black;
@@ -32,19 +37,22 @@
             display: flex;
             justify-content: space-between;
         }
-        li{
+
+        .li1 {
             background-color: purple;
             padding: 10px 40px;
             color: white;
             border-radius: 10px;
             box-shadow: 4px 4px 10px red;
-            
+
         }
-        #form{
+
+        #form {
             border: 2px groove red;
             background-color: aliceblue;
         }
-        .btn{
+
+        .btn {
             padding: 10px 30px;
             text-align: center;
             color: blue;
@@ -54,51 +62,82 @@
             font-size: larger;
             font-weight: bolder;
         }
-        .btn:hover{
+
+        .btn:hover {
             background-color: brown;
             transition-duration: 0.5s;
             color: white;
         }
+        .css-type{
+            background-color: blue;
+            color: blanchedalmond;
+            display:flex;
+            justify-content: space-around;
+            border-radius: 30px 0;
+            box-shadow: 10px 10px 10px rgb(114, 116, 116);
+            margin-bottom: 50px;
+        }
+        #int-head{
+            color: darkorange;
+            text-decoration: underline;
+        }
+        .int-p{
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+            border: 5px ridge blue;
+            border-radius: 30px 0;
+            text-align: justify;
 
+        }
     </style>
 </head>
+
 <body>
 
-    <h1 style=" font-size: 50px; font-weight: bolder; color: fuchsia; display: flex; justify-content: center; text-decoration: underline;">Practice Day by Habijabi Work</h1><br><br>
+    <h1
+        style=" font-size: 50px; font-weight: bolder; color: fuchsia; display: flex; justify-content: center; text-decoration: underline;">
+        Practice Day by Habijabi Work</h1><br><br>
     <div class="content">
         <div class="container">
-        <h1 class="title">This is reposotori test website</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus nobis eligendi asperiores explicabo, suscipit sed aliquid sapiente, facere aperiam autem libero est voluptates odit accusantium quis ea repellat exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus molestias facere quia, vero voluptatibus debitis sit? Voluptatum, aspernatur cumque ipsam fugiat modi deleniti obcaecati voluptas, molestias rem mollitia beatae!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, voluptas dolor. Eius earum dolore pariatur beatae sequi, numquam, minus consectetur cumque illum adipisci sapiente sunt quas omnis possimus, maiores quidem!</p>
-    </div>
-        <div class="container">
-        <h1 class="title">This is reposotori test website</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus nobis eligendi asperiores explicabo, suscipit sed aliquid sapiente, facere aperiam autem libero est voluptates odit accusantium quis ea repellat exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus molestias facere quia, vero voluptatibus debitis sit? Voluptatum, aspernatur cumque ipsam fugiat modi deleniti obcaecati voluptas, molestias rem mollitia beatae!</p>
-    </div>
-        <div class="container">
-        <h1 class="title">This is reposotori test website</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus nobis eligendi asperiores explicabo, suscipit sed aliquid sapiente, facere aperiam autem libero est voluptates odit accusantium quis ea repellat exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus molestias facere quia, vero voluptatibus debitis sit? Voluptatum, aspernatur cumque ipsam fugiat modi deleniti obcaecati voluptas, molestias rem mollitia beatae!</p>
-    </div>
+            <h1 class="title">This is reposotori test website</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque voluptatibus nobis eligendi asperiores
+                explicabo, suscipit sed aliquid sapiente, facere aperiam autem libero est voluptates odit accusantium
+                quis ea repellat exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus
+                molestias facere quia, vero voluptatibus debitis sit? Voluptatum, aspernatur cumque ipsam fugiat modi
+                deleniti obcaecati voluptas, molestias rem mollitia beatae!Lorem Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Iste, voluptas dolor. Eius earum dolore pariatur beatae sequi, numquam, minus
+                consectetur cumque illum adipisci sapiente sunt quas omnis possimus, maiores quidem!</p>
     </div><br><br>
     <h2>Box Model CSS</h2>
     <ul>
-        <li>content</li>
-        <li>padding</li>
-        <li>border</li>
-        <li>margin</li>
+        <li class="li1">content</li>
+        <li class="li1">padding</li>
+        <li class="li1">border</li>
+        <li class="li1">margin</li>
     </ul><br><br>
 
     <div style="display: grid; align-items: center; justify-content: center;">
         <h2>Like Under bellow</h2>
-        <div class="all-off-box" style="background-color: aqua; width: 800px; height: 400px; display: grid; align-items: center; justify-content: center; font-size: x-large; font-weight: 700; color: navy; box-shadow: 20px 10px 10px rgb(126, 126, 126);">Margin
-            <div class="margin" style="background-color: blueviolet; width: 600px; height: 300px; display: grid; align-items: center; justify-content: center; border-radius: 30px 0; font-size: x-large; font-weight: 700; color: white; ">Border
-            <div class="border" style="background-color: antiquewhite; width: 400px; height: 150px; border-radius: 0 50px; display: flex; align-items: center; justify-content: center; font-size: x-large; font-weight: 700; color: blue; ">Padding
-                <div class="padding" style="background-color: black; border-radius: 20px; width: 250px; height: 80px; ">
-                    <div class="contant" style="color: white; display: flex; align-items: center; justify-content: center; font-weight: bolder; font-size: x-large;"> Content
+        <div class="all-off-box"
+            style="background-color: aqua; width: 800px; height: 400px; display: grid; align-items: center; justify-content: center; font-size: x-large; font-weight: 700; color: navy; box-shadow: 20px 10px 10px rgb(126, 126, 126);">
+            Margin
+            <div class="margin"
+                style="background-color: blueviolet; width: 600px; height: 300px; display: grid; align-items: center; justify-content: center; border-radius: 30px 0; font-size: x-large; font-weight: 700; color: white; ">
+                Border
+                <div class="border"
+                    style="background-color: antiquewhite; width: 400px; height: 150px; border-radius: 0 50px; display: flex; align-items: center; justify-content: center; font-size: x-large; font-weight: 700; color: blue; ">
+                    Padding
+                    <div class="padding"
+                        style="background-color: black; border-radius: 20px; width: 250px; height: 80px; ">
+                        <div class="contant"
+                            style="color: white; display: flex; align-items: center; justify-content: center; font-weight: bolder; font-size: x-large;">
+                            Content
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
+            </div>
         </div>
     </div>
 
@@ -112,7 +151,7 @@
         <input type="password" placeholder="Enter re passwore"><br><br>
         <label for="">Contact No:</label>
         <input type="number" name="" id="" placeholder="Enter your number"><br><br>
-                <label for="">Email:</label>
+        <label for="">Email:</label>
         <input type="email" name="" id="" placeholder="write your email"><br>
         <h4>Choss your feviorite game</h4>
         <label for="">
@@ -129,10 +168,32 @@
         </label><br><br>
 
 
-       <button type="submit" class="btn">submit</button>
-       <button type="reset" class="btn">clear</button>
-        
+        <button type="submit" class="btn">submit</button>
+        <button type="reset" class="btn">clear</button>
+
     </form>
-    
+
+    <div class="css">
+        <h1>There are three type of CSS</h1>
+        <ol class="css-type">
+            <li>Inlene</li>
+            <li>Internal</li>
+            <li>External</li>
+        </ol>
+        <div class="inline">
+            <h2 style= "color: crimson; text-decoration: underline;">Inline CSS</h2>
+            <p style="background-color: darkmagenta;color: aliceblue; border-radius: 20px; padding: 5px 10px; text-align: justify; border: 5px solid tomato;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <u>Alias est magni temporibus</u> possimus non corporis rerum dolore debitis, nam perspiciatis labore corrupti quaerat voluptas hic consectetur dignissimos accusamus doloribus, <mark>recusandae optio sapiente dolores praesentium?</mark> Vero laborum ratione quos tempora reiciendis ut iure praesentium illo! Aut, id. Maiores nesciunt repudiandae adipisci perferendis? Veniam eum cum autem excepturi obcaecati laborum iusto ipsum, vero eveniet laudantium porro tempore voluptas. <em>Impedit libero eaque,</em> sint aliquam ab itaque in atque delectus quia corporis, possimus placeat eligendi deleniti, ipsum tenetur quae aliquid temporibus? Natus, nemo! Illum reiciendis beatae repellendus dignissimos in esse dolores explicabo libero! Tempore!</p>
+        </div>
+        <div class="internal">
+            <h2 id="int-head">Interlan CSS</h2>
+            <p class="int-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem excepturi ut aspernatur exercitationem officiis earum. Sequi voluptatum quas, impedit adipisci ad nobis voluptatibus nisi eveniet recusandae, aliquid amet dolorum excepturi voluptates. Quo veritatis sapiente autem quibusdam officiis sit quam aperiam expedita itaque fugit error vero tempore, pariatur, quasi in architecto veniam! Ea reiciendis in aperiam voluptates neque autem necessitatibus vero maiores, cupiditate officia similique labore aut tenetur facere dolorem velit ipsum omnis nostrum hic illo enim esse! Sapiente, repellat, consequuntur ut, blanditiis ducimus debitis ullam minima quo nemo aspernatur adipisci nesciunt. Autem animi natus tempore harum incidunt maxime voluptatem sed.</p>
+        </div>
+        <div class="external">
+            <h2 id="ext-head">External CSS</h2>
+            <p class="ext-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quisquam voluptate nemo, modi dignissimos, possimus doloremque placeat sunt quis repellat tenetur magni non velit minus voluptatibus harum? Ipsam, obcaecati nobis, delectus laborum labore magnam laudantium beatae officia quas totam ad. Eveniet magni maxime, ab quas tenetur explicabo eum perferendis aspernatur corrupti earum, quam cum nesciunt placeat numquam officiis qui rem aliquid pariatur dolorum distinctio modi reprehenderit. Laborum sint optio iusto omnis, explicabo tenetur accusamus maiores sit voluptate quasi consequatur quisquam enim sed debitis cumque animi accusantium beatae in maxime laudantium! A voluptates distinctio eum similique facilis fugit aspernatur ducimus officia.</p>
+        </div>
+    </div>
+
 </body>
+
 </html>
